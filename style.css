@@ -1,0 +1,65 @@
+.mynav {
+    background-color: rgb(135, 222, 170);
+    height: 70px;
+    line-height: 20px;
+}
+.mynav ul {
+    list-style: none;
+    padding: 2%;
+    margin: 2%;
+}
+.mynav li {
+    display: inline;
+    padding: 85px;
+    font-family: 'roboto', sans-serif;
+    
+}
+.mynav li a {
+    color: rgb(183, 127, 128);
+    text-decoration: none;
+}
+.mydiv {
+    background-color: red;
+
+}
+.myabout h1 {
+    background-color: red;
+    padding-bottom: 1%;
+    padding-top: 1%;
+
+}
+.myabout h1:hover {
+    background-color: aqua;
+}
+.mywork h1 {
+    background-color:red ;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.mywork h1:hover {
+    background-color: aqua;
+}
+.myresume h1 {
+    background-color: red;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.myresume h1:hover {
+    background-color: aqua;
+}
+.mycontact h1 {
+    background-color: red;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.mycontact h1:hover {
+    background-color:aqua;
+}
+.mycontact form {
+}
+#mybutton:hover {
+color: red;
+}
+#mybutton {
+    background-color:green;
+}

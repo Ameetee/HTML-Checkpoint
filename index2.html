@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ameetee Autoworkshop</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="mynav">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -23,12 +24,12 @@
         <h2>welcome to our Wokshop</h2>
     </div>
     <!-- about section -->
-    <section>
+    <section class="myabout">
         <h1>About</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ea aut nostrum fuga omnis est magnam accusantium, consequatur harum eveniet illo dicta totam ullam nisi consectetur. Cum inventore omnis ducimus.</p>
     </section>
     <!-- work sction -->
-    <section>
+    <section class="mywork">
         <h1>Work</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, dolor doloremque suscipit, cupiditate obcaecati expedita alias temporibus quas ea laudantium consequuntur adipisci. Corporis explicabo in deserunt debitis aut sunt culpa.</p>
         <div>
@@ -36,26 +37,30 @@
         </div>
     </section>
     <!-- Resume section -->
-    <section>
+    <section class="myresume">
         <h1>Resume</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt omnis facilis alias? Vitae explicabo ut id repellendus consequatur aut! Hic iste consectetur ipsa cum! Repellendus illo eum ipsum animi voluptas?</p>
 </section>
 <!-- Contact Section -->
-<section>
+<section class="mycontact">
         <h1>Contact</h1>
             <h2>sign up</h2>
             <form>
                 <label for="">Name</label>
                     <input type="text">
                     <br>
+                    <br>
                     <label for="">Surname</label>
                     <input type="text">
+                    <br>
                     <br>
                     <label for="">Plate number</label>
                     <input type="text and number">
                     <br>
+                    <br>
                     <label for="">Phone number</label>
                     <input type="number">
+                    <br>
                     <br>
                     <label for="">Country</label>
                     <select>
@@ -64,7 +69,10 @@
                         <option value="">Senegal</option>
                     </select>
                     <br>
-                    <button>please submit</button>
+                    <br>
+                    <center>
+                    <button id="mybutton" type="button">Please submit</button> 
+                </center>
                 </label>
             </form>
     
